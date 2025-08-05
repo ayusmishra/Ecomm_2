@@ -1,0 +1,168 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Lexend%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden" style='font-family: Lexend, "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f0f3f4] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#111518]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#111518] text-lg font-bold leading-tight tracking-[-0.015em]">HealthPlus</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#111518] text-sm font-medium leading-normal" href="#">Find a doctor</a>
+              <a class="text-[#111518] text-sm font-medium leading-normal" href="#">Specialties</a>
+              <a class="text-[#111518] text-sm font-medium leading-normal" href="#">For providers</a>
+              <a class="text-[#111518] text-sm font-medium leading-normal" href="#">For employers</a>
+            </div>
+            <div class="flex gap-2">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#1993e5] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Sign up</span>
+              </button>
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#f0f3f4] text-[#111518] text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Log in</span>
+              </button>
+            </div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-[512px] max-w-[512px] py-5 max-w-[960px] flex-1">
+            <div class="flex flex-wrap gap-2 p-4">
+              <a class="text-[#637988] text-base font-medium leading-normal" href="#">Find a doctor</a>
+              <span class="text-[#637988] text-base font-medium leading-normal">/</span>
+              <a class="text-[#637988] text-base font-medium leading-normal" href="#">Dr. Emily Carter</a>
+              <span class="text-[#637988] text-base font-medium leading-normal">/</span>
+              <span class="text-[#111518] text-base font-medium leading-normal">Book Appointment</span>
+            </div>
+            <div class="flex flex-wrap justify-between gap-3 p-4"><p class="text-[#111518] tracking-light text-[32px] font-bold leading-tight min-w-72">Review and pay</p></div>
+            <h3 class="text-[#111518] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Appointment details</h3>
+            <div class="p-4 grid grid-cols-[20%_1fr] gap-x-6">
+              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#dce1e5] py-5">
+                <p class="text-[#637988] text-sm font-normal leading-normal">Doctor</p>
+                <p class="text-[#111518] text-sm font-normal leading-normal">Dr. Emily Carter</p>
+              </div>
+              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#dce1e5] py-5">
+                <p class="text-[#637988] text-sm font-normal leading-normal">Date</p>
+                <p class="text-[#111518] text-sm font-normal leading-normal">Tue, Jul 23</p>
+              </div>
+              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#dce1e5] py-5">
+                <p class="text-[#637988] text-sm font-normal leading-normal">Time</p>
+                <p class="text-[#111518] text-sm font-normal leading-normal">10:00 AM</p>
+              </div>
+              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#dce1e5] py-5">
+                <p class="text-[#637988] text-sm font-normal leading-normal">Service</p>
+                <p class="text-[#111518] text-sm font-normal leading-normal">General Consultation</p>
+              </div>
+            </div>
+            <h3 class="text-[#111518] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Payment method</h3>
+            <div class="flex flex-wrap gap-3 p-4">
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#dce1e5] px-4 h-11 text-[#111518] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1993e5] relative cursor-pointer"
+              >
+                Credit or debit card
+                <input type="radio" class="invisible absolute" name="fb151c44-52e9-4dd3-b4b2-d58e93a9bbf9" />
+              </label>
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#dce1e5] px-4 h-11 text-[#111518] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1993e5] relative cursor-pointer"
+              >
+                Online banking
+                <input type="radio" class="invisible absolute" name="fb151c44-52e9-4dd3-b4b2-d58e93a9bbf9" />
+              </label>
+              <label
+                class="text-sm font-medium leading-normal flex items-center justify-center rounded-lg border border-[#dce1e5] px-4 h-11 text-[#111518] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#1993e5] relative cursor-pointer"
+              >
+                Other payment methods
+                <input type="radio" class="invisible absolute" name="fb151c44-52e9-4dd3-b4b2-d58e93a9bbf9" />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#111518] text-base font-medium leading-normal pb-2">Card number</p>
+                <input
+                  placeholder="Enter card number"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#111518] focus:outline-0 focus:ring-0 border-none bg-[#f0f3f4] focus:border-none h-14 placeholder:text-[#637988] p-4 text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#111518] text-base font-medium leading-normal pb-2">Expiry date</p>
+                <input
+                  placeholder="MM/YY"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#111518] focus:outline-0 focus:ring-0 border-none bg-[#f0f3f4] focus:border-none h-14 placeholder:text-[#637988] p-4 text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#111518] text-base font-medium leading-normal pb-2">CVV</p>
+                <input
+                  placeholder="123"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#111518] focus:outline-0 focus:ring-0 border-none bg-[#f0f3f4] focus:border-none h-14 placeholder:text-[#637988] p-4 text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#111518] text-base font-medium leading-normal pb-2">Name on card</p>
+                <input
+                  placeholder="Enter name"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#111518] focus:outline-0 focus:ring-0 border-none bg-[#f0f3f4] focus:border-none h-14 placeholder:text-[#637988] p-4 text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <h3 class="text-[#111518] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Summary</h3>
+            <div class="p-4 grid grid-cols-[20%_1fr] gap-x-6">
+              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#dce1e5] py-5">
+                <p class="text-[#637988] text-sm font-normal leading-normal">Consultation fee</p>
+                <p class="text-[#111518] text-sm font-normal leading-normal">$150</p>
+              </div>
+              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#dce1e5] py-5">
+                <p class="text-[#637988] text-sm font-normal leading-normal">Taxes</p>
+                <p class="text-[#111518] text-sm font-normal leading-normal">$15</p>
+              </div>
+              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#dce1e5] py-5">
+                <p class="text-[#637988] text-sm font-normal leading-normal">Total</p>
+                <p class="text-[#111518] text-sm font-normal leading-normal">$165</p>
+              </div>
+            </div>
+            <div class="flex px-4 py-3">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 flex-1 bg-[#1993e5] text-white text-base font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Pay $165</span>
+              </button>
+            </div>
+            <p class="text-[#637988] text-sm font-normal leading-normal pb-3 pt-1 px-4 text-center">Your payment is secure and encrypted</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
